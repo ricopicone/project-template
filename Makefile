@@ -1,0 +1,3 @@
+
+%.pdf: %.tex
+	latexmk -lualatex $<
